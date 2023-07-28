@@ -1,0 +1,1 @@
+export const profileUrl='https://64b9fef679b7c9def6c17de4.mockapi.io';

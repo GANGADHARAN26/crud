@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"name": "PROJECTS",
+			"path": "../../../../PROJECTS"
+		},
+		{
+			"name": "javascript",
+			"path": "../../../../javascript"
+		},
+		{
+			"name": "fsd",
+			"path": "../../../../fsd"
+		},
+		{
+			"name": "problems",
+			"path": "../../../../problems"
+		},
+		{
+			"name": "Node",
+			"path": "../../../../Node"
+		},
+		{
+			"name": "REACT",
+			"path": "../../../../../../../g/REACT"
+		},
+		{
+			"name": "React_projects",
+			"path": "../../.."
+		},
+		{
+			"name": "node app",
+			"path": "../../../../node app"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROJECTS"
+	}
+}
