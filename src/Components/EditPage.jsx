@@ -1,6 +1,5 @@
 import React,{useEffect, useState} from "react";
-import "./EditPage.css";
-import  {getProfile, getProfiles, updateProfile} from "../profileCrud";
+import  {getProfile, updateProfile} from "../profileCrud";
 import { useSearchParams } from "react-router-dom";
 const EditPage = () => {
     const initialState = {
