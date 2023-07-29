@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getProfiles, deleteProfile } from "../profileCrud";
+import { getProfiles} from "../profileCrud";
 import "./HomeDesign.css";
 import { Link } from "react-router-dom";
 import prof from "./man.png";
@@ -13,7 +13,8 @@ const HomePage = () => {
 
   //delete the profiledata
   const removeProfile = async (profileId) => {
-    const response = await deleteProfile(profileId);
+    // eslint-disable-next-line no-unused-vars
+   // const response = await deleteProfile(profileId);
     const newProfile = profiles.filter(({ id }) => profileId !== id);
     setProfiles(newProfile);
   };
@@ -27,7 +28,7 @@ const HomePage = () => {
           <h1>Profiles</h1>
           {profiles.map((e) => (
             <div key={e.id} className="col-4">
-              <Link to={`/profiles/${e.id}`}>
+              <Link to={`/profiles/${e.id}`}  style={{textDecoration:'none'}}>
                 <div className="card " id="profileCard">
                   <div className="row g-0">
                     <div className="col-md-4">

@@ -10,9 +10,9 @@ function App() {
     <div className="App container-fluid">
          <BrowserRouter>
          <header className='topbar'> 
-          <Link to='/profiles' className='hm' >HomePage</Link>&nbsp;&nbsp;
-          <Link to='/profiles/add' className='ad'>AddProfile</Link>&nbsp;&nbsp;
-          <Link to='/profiles/edit' className='ed'>EditProfile</Link>
+          <Link to='/profiles' className='hm' style={{textDecoration:'none'}}>HomePage</Link>&nbsp;&nbsp;
+          <Link to='/profiles/add' className='ad'  style={{textDecoration:'none'}}>AddProfile</Link>&nbsp;&nbsp;
+          <Link to='/profiles/edit' className='ed'  style={{textDecoration:'none'}}></Link>
          </header>
          <Routes>
           <Route index path='/' element={<HomePage/>}/>
